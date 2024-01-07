@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+/* Header part here */
+
+.upper-part {
+
+    width: 82.5%;
+    max-width: 1320px;
+    height: 600px;
+    margin: 0 auto;
+    background-image: url('../resources/Banner\ Image.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    border-radius: 16px;
+
+
+
+
+}
+
+.upper-part .header-title-description .header-title {
+    color: #FFF;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 400;
+    padding: 130px 450px 0px 450px;
+    font-family: Merriweather;
+    position: relative;
+
+}
+
+.upper-part .header-title-description .header-description {
+
+    color: rgb(240, 233, 233);
+
+    text-align: center;
+    font-size: 60px;
+    padding: 0 280px 147px 280px;
+    width: 632px;
+    font-family: Merriweather;
+    position: relative;
+
+
+}
+
+/* header part end here */
+
+header main {
+    gap: 120px;
+}
+
+/* body part1 start here */
+
+.body-part1 .body-part1-title {
+
+    color: #F00;
+    text-align: center;
+    font-size: 60px;
+    font-family: Inter;
+    font-weight: 700;
+    margin-bottom: 40px;
+
+}
+
+.body-part1 .body-part1-smalldescription {
+
+    color: #F00;
+
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+
+
+}
+
+.body-part1 .body-part1-title2 {
+
+    color: #070211;
+
+    text-align: center;
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+.body-part1-image{
+
+    width: 82.5%;
+    max-width: 700px;
+    height: 420px;
+    margin: 0 auto;
+    background-image: url('../resources/New\ Year\ Photo.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+
