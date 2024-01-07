@@ -90,7 +90,7 @@ header main {
     margin-bottom: 40px;
 }
 
-.body-part1-image{
+.body-part1-image {
 
     width: 82.5%;
     max-width: 700px;
@@ -100,5 +100,59 @@ header main {
     background-repeat: no-repeat;
     background-size: contain;
 
+    margin-bottom: 120px;
+
 }
 
+.body-part2 {
+
+    width: 82.5%;
+    max-width: 1320px;
+    height: 600px;
+    margin: 0 auto;
+    background-image: url('../resources/Vectorrr.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+
+
+.body-part2-title {
+
+
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 45px;
+    font-weight: 900;
+    letter-spacing: 5.80px;
+    width: 530px;
+
+
+
+}
+
+.body-part2-body {
+
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 400;
+    width: 576px;
+}
+
+.body-part2{
+    display: flex;
+    
+    
+}
+
+.body-part2-title{
+    margin-top: 120px;
+    margin-left: 65px;
+    margin-bottom: 20px;
+}
+
+.body-part2-body{
+
+    margin-left: 65px;
+}
