@@ -55,10 +55,14 @@ header main {
 
 /* body part1 start here */
 
-.body-part1 .body-part1-title {
+.body-part1{
+    text-align: center;
+}
+
+.body-part1-title {
 
     color: #F00;
-    text-align: center;
+   
     font-size: 60px;
     font-family: Inter;
     font-weight: 700;
@@ -66,11 +70,11 @@ header main {
 
 }
 
-.body-part1 .body-part1-smalldescription {
+.body-part1-smalldescription {
 
     color: #F00;
 
-    text-align: center;
+  
     font-family: Inter;
     font-size: 20px;
     font-weight: 500;
@@ -78,11 +82,11 @@ header main {
 
 }
 
-.body-part1 .body-part1-title2 {
+.body-part1-title2 {
 
     color: #070211;
 
-    text-align: center;
+  
     font-family: Inter;
     font-size: 40px;
     font-weight: 700;
@@ -166,7 +170,6 @@ header main {
     width: 230px;
     height: 310px;
     padding: 0.008px 0px 0px 0px;
-
     margin-top: 80px;
     margin-left: 80px;
 
@@ -213,7 +216,7 @@ header main {
 
 }
 
-.body-part3 .body-part3-description .red-part {
+.red-part {
 
     color: #F00;
 }
@@ -562,7 +565,7 @@ h5 {
     gap: 24px;
 }
 
-.footer-middle-part-image {}
+
 
 .footer-ending-left {
 
