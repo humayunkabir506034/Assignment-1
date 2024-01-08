@@ -12,7 +12,7 @@
     max-width: 1320px;
     height: 600px;
     margin: 0 auto;
-    background-image: url('../resources/Banner\ Image.png');
+    background-image: url('../resources/BannerImage.png');
     background-repeat: no-repeat;
     background-size: contain;
 
@@ -96,13 +96,17 @@ header main {
     max-width: 700px;
     height: 420px;
     margin: 0 auto;
-    background-image: url('../resources/New\ Year\ Photo.png');
+    background-image: url('../resources/NewYearPhoto.png');
     background-repeat: no-repeat;
     background-size: contain;
 
     margin-bottom: 120px;
 
 }
+
+/* body part 1 end here */
+
+/* body part2 start here  */
 
 .body-part2 {
 
@@ -140,19 +144,45 @@ header main {
     width: 576px;
 }
 
-.body-part2{
+.body-part2 {
     display: flex;
-    
-    
+
+
 }
 
-.body-part2-title{
+.body-part2-title {
     margin-top: 120px;
     margin-left: 65px;
     margin-bottom: 20px;
 }
 
-.body-part2-body{
+.body-part2-body {
 
     margin-left: 65px;
+    margin-bottom: 40px;
 }
+
+.body-part2-image {
+
+    width: 230px;
+    height: 310px;
+    padding: 0.008px 0px 0px 0px;
+
+    margin-top: 80px;
+    margin-left: 80px;
+
+}
+
+.body-part2-anchor a {
+    text-decoration: none;
+    color: white;
+    margin-left: 130px;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+
+}
+
+/* body part2 ends here */
