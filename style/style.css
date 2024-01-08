@@ -23,27 +23,26 @@
 
 }
 
-.upper-part .header-title-description .header-title {
-    color: #FFF;
+.header-title-description {
     text-align: center;
-    font-size: 28px;
-    font-weight: 400;
-    padding: 130px 450px 0px 450px;
-    font-family: Merriweather;
-    position: relative;
+    padding-top: 145px;
 
 }
 
-.upper-part .header-title-description .header-description {
+.header-title {
+    color: #FFF;
+    font-size: 26px;
+    font-weight: 400;
+    font-family: 'Merriweather',serif;
 
-    color: rgb(240, 233, 233);
 
-    text-align: center;
+}
+
+.header-description {
+    color: rgb(240, 233, 233);  
     font-size: 60px;
-    padding: 0 280px 147px 280px;
-    width: 632px;
-    font-family: Merriweather;
-    position: relative;
+    font-family: 'Merriweather',serif;
+
 
 
 }
@@ -563,27 +562,26 @@ h5 {
     gap: 24px;
 }
 
-.footer-middle-part-image{
-    
-}
+.footer-middle-part-image {}
+
 .footer-ending-left {
 
     color: #FFF;
     font-family: Inter;
-    font-size: 20px;   
+    font-size: 20px;
     font-weight: 500;
-   
+
 }
 
-.footer-ending-right{
+.footer-ending-right {
     color: #FFF;
     font-family: Inter;
-    font-size: 20px;   
+    font-size: 20px;
     font-weight: 500;
-   
+
 }
 
-.footer-ending{
+.footer-ending {
     display: flex;
     justify-content: space-between;
 
