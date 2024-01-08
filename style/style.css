@@ -560,8 +560,12 @@ h5 {
 
 .footer-section-middle-part {
     display: flex;
+    gap: 24px;
 }
 
+.footer-middle-part-image{
+    
+}
 .footer-ending-left {
 
     color: #FFF;
