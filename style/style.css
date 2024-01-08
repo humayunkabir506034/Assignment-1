@@ -319,10 +319,77 @@ header main {
 
 }
 
-.body-part4{
+.body-part4 {
     display: flex;
     justify-content: space-between;
     gap: 55px;
 }
 
 /* body part4 ends here */
+
+/* body part5 start here */
+
+.body-part5 {
+
+    width: 82.5%;
+    max-width: 1320px;
+    height: 100%;
+    margin: 0 auto;
+
+}
+
+.body-part5-title {
+
+    color: #F00;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.body-part5-heading {
+
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 40px;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+
+.body-part5-description {
+
+    width: 740px;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 27px;
+    margin-bottom: 40px;
+}
+
+.body-part5-first-row-images{
+    display: flex;
+}
+
+.part5-images {
+
+    width: 350px;
+    height: 371px;
+    
+}
+
+.img1 , .img2{
+
+    margin-right: 20px;
+}
+
+.part5-images:hover{
+    border: 5px solid greenyellow;
+    border-radius: 13px;
+    cursor: pointer;
+}
+
+.body-part5-first-row-images{
+    margin-bottom: 20px;
+}
+
+/* body part5 ends here */
