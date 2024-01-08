@@ -125,7 +125,7 @@ header main {
 
 
     color: #FFF;
-    font-family: Merriweather;
+    font-family: 'Merriweather', serif;
     font-size: 45px;
     font-weight: 900;
     letter-spacing: 5.80px;
@@ -266,7 +266,7 @@ header main {
 .body-part4-start-heading {
 
     color: #070211;
-    font-family: Merriweather;
+    font-family: 'Merriweather', serif;
     font-size: 40px;
     font-weight: 900;
     text-transform: capitalize;
@@ -335,6 +335,8 @@ header main {
     max-width: 1320px;
     height: 100%;
     margin: 0 auto;
+    margin-bottom: 100px;
+
 
 }
 
@@ -366,7 +368,7 @@ header main {
     margin-bottom: 40px;
 }
 
-.body-part5-first-row-images{
+.body-part5-first-row-images {
     display: flex;
 }
 
@@ -374,22 +376,117 @@ header main {
 
     width: 350px;
     height: 371px;
-    
+
 }
 
-.img1 , .img2{
+.img1,
+.img2 {
 
     margin-right: 20px;
 }
 
-.part5-images:hover{
+.part5-images:hover {
     border: 5px solid greenyellow;
     border-radius: 13px;
     cursor: pointer;
 }
 
-.body-part5-first-row-images{
-    margin-bottom: 20px;
-}
+
 
 /* body part5 ends here */
+
+/* body part6 start here */
+
+.body-part6 {
+
+
+    width: 82.5%;
+    max-width: 1320px;
+    height: 616px;
+    margin: 0 auto;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+
+}
+
+.body-part6-total {
+
+    text-align: center;
+    padding-top: 66px;
+
+
+}
+
+.part6-image {
+    width: 125px;
+    height: 125px;
+}
+
+.part6-header {
+
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 40px;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+
+.part6-description {
+
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 17px;
+    font-weight: 400;
+    font-family: Inter;
+    padding: 0 175px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+
+
+}
+
+#user-input {
+
+    background: #FFF;
+    width: 75%;
+    height: 100%;
+    border: none;
+    color: rgba(7, 2, 17, 0.30);
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 400;
+    padding-left: 30px;
+    border-radius: 40px ;
+    border: none;
+
+}
+
+.user-button {
+
+    background: #F00;
+    width: 25%;
+    height: 100%;
+    border: none;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 17px;
+    font-weight: 600;
+    text-transform: capitalize;
+    border-radius: 40px ;
+    cursor: pointer;
+    
+}
+
+.user-input-button {
+
+    width: 535px;
+    height: 60px;
+    display: flex;
+    margin-left: 278px;
+    margin-right: 278px;
+    
+    
+}
+
+/* body part6 ends here */
+
+/* body part complete */
