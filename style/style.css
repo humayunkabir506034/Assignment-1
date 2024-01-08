@@ -455,7 +455,7 @@ header main {
     font-size: 15px;
     font-weight: 400;
     padding-left: 30px;
-    border-radius: 40px ;
+    border-radius: 40px 0px 0px 40px;
     border: none;
 
 }
@@ -471,9 +471,9 @@ header main {
     font-size: 17px;
     font-weight: 600;
     text-transform: capitalize;
-    border-radius: 40px ;
+    border-radius: 0px 40px 40px 0px;
     cursor: pointer;
-    
+
 }
 
 .user-input-button {
@@ -483,10 +483,105 @@ header main {
     display: flex;
     margin-left: 278px;
     margin-right: 278px;
-    
-    
+
+
 }
 
 /* body part6 ends here */
 
 /* body part complete */
+
+/* footer part start here */
+
+.footer-part {
+
+
+    margin-top: 100px;
+    width: 100%;
+    max-height: 1600px;
+    height: 609px;
+    background: #070211;
+
+
+
+}
+
+.footer-section {
+    width: 82.5%;
+    max-width: 1320px;
+    height: 609px;
+    margin: 0 auto;
+}
+
+.footer-title {
+
+    color: #FFF;
+
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 33px;
+
+}
+
+
+h5 {
+
+    color: #FFF;
+
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 33px;
+
+}
+
+.footer-section-upper-part {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+    padding-bottom: 42px
+}
+
+.footer-middle-part-image {
+
+    width: 53px;
+    height: 53px;
+}
+
+.footer-section-middle-part {
+    position: relative;
+    left: 50%;
+    right: 50%;
+    padding-top: 48px;
+    padding-bottom: 48px;
+
+}
+
+.footer-section-middle-part {
+    display: flex;
+}
+
+.footer-ending-left {
+
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;   
+    font-weight: 500;
+   
+}
+
+.footer-ending-right{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;   
+    font-weight: 500;
+   
+}
+
+.footer-ending{
+    display: flex;
+    justify-content: space-between;
+
+    padding-top: 50px;
+}
