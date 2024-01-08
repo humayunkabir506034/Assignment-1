@@ -186,3 +186,56 @@ header main {
 }
 
 /* body part2 ends here */
+
+/* body part3 start here */
+
+.body-part3 {
+
+    width: 82.5%;
+    max-width: 1320px;
+    height: 482px;
+    margin: 0 auto;
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+
+
+
+}
+
+
+.body-part3-description {
+    color: #070211;
+    font-family: Inter;
+    font-size: 27px;
+    font-weight: 600;
+    line-height: 50px;
+    text-transform: capitalize;
+    padding-top: 83px;
+
+}
+
+.body-part3 .body-part3-description .red-part {
+
+    color: #F00;
+}
+
+.body-part3-total {
+    text-align: center;
+
+}
+
+.body-part3-button {
+
+    background: #F00;
+    padding: 16px 32px;
+    border-radius: 8px;
+    color: #FFF;
+
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+    margin-top: 40px;
+}
+
+/* body part3 start here */
